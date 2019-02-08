@@ -12,6 +12,6 @@ public class JenkinsTestController {
     @GetMapping("/test")
     @ResponseBody
     public String test(){
-        return "hellojenkins";
+        return "用jenkins部署";
     }
 }
