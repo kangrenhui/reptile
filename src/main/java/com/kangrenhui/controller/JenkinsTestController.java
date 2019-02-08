@@ -12,6 +12,6 @@ public class JenkinsTestController {
     @GetMapping("/test")
     @ResponseBody
     public String test(){
-        return "用jenkins部署";
+        return "部署成功拉 鲜花鲜花";
     }
 }
